@@ -101,12 +101,12 @@ We welcome contributions and suggestions! Please see the [CONTRIBUTING.md](https
 
 ## Release Notes
 
-### 1.0.0
+## [1.0.2] - 2024-04-01
 
-Initial release of the Flutter Feature Scaffolder:
+### Added
 
-- Scaffold new Flutter feature with Clean Architecture.
-- Generate `index.dart` files for each directory.
+- Key bindings to the extension
+- Linked Key bindings with the menu context.
 
 ## Support
 

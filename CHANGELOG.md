@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Initial planning and design work.
 
-## [0.0.1] - 2024-03-31
+## [1.0.0] - 2024-03-31
 
 ### Added
 
@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Basic `README.md`, `CONTRIBUTING.md`, and `LICENSE.md` files.
 - Extension icon and marketplace presentation materials.
 
-## [1.1.0] - 2024-04-01
+## [1.0.1] - 2024-04-01
 
 ### Added
 
@@ -34,3 +34,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Fixed a bug where certain file names would not be correctly formatted.
 - Resolved an issue causing extension conflicts with other Flutter tools.
+
+
+## [1.0.2] - 2024-04-01
+
+### Added
+
+- Key bindings to the extension
+- Linked Key bindings with the menu context.
