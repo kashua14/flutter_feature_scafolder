@@ -30,9 +30,7 @@
     "Programming Languages",
     "Snippets"
   ],
-  "activationEvents": [
-    "onCommand:flutter_feature_scaffolder.scaffoldFeature"
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
