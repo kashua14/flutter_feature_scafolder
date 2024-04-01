@@ -2,11 +2,11 @@
   "name": "flutter-feature-scaffolder",
   "displayName": "Flutter Feature Scaffolder",
   "description": "A VS Code extension to quickly scaffold feature directories and files for Flutter applications following the Clean Architecture principles. Automates the creation of data, domain, and presentation layers, including BLoC for state management, models, and services, ensuring a consistent and efficient workflow for Flutter developers.",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.87.0"
   },
-  "publisher": "Joshua Kasasira",
+  "publisher": "KasasiraJoshua",
   "author": {
     "name": "Joshua Kasasira",
     "email": "joshkasasira@gmail.com"
