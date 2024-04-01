@@ -11,6 +11,7 @@
     "name": "Joshua Kasasira",
     "email": "joshkasasira@gmail.com"
   },
+  "icon": "images/icon.webp",
   "repository": {
     "type": "git",
     "url": "https://github.com/kashua14/flutter_feature_scafolder"
