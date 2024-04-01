@@ -15,37 +15,45 @@ Using the Flutter Feature Scaffolder to generate a new feature named `feature_na
 
 ### Feature Structure Overview
 
+```dart
 lib/
-└── src/
 └── features/
-└── feature_name/
-├── data/
-│ ├── datasources/
-│ │ ├── remote_data_source.dart (handles remote data operations)
-│ │ ├── local_data_source.dart (manages local data storage)
-│ │ └── index.dart (exports datasources)
-│ ├── models/
-│ │ └── index.dart (exports models)
-│ └── repositories/
-│ ├── feature_name_repository_impl.dart (feature-specific repository implementation)
-│ └── index.dart (exports repositories)
-├── domain/
-│ ├── entities/
-│ │ └── index.dart (exports entities)
-│ ├── repositories/
-│ │ ├── feature_name_repository.dart (abstract definition of the repository)
-│ │ └── index.dart (exports repositories)
-│ └── usecases/
-│ └── index.dart (exports use cases)
-└── presentation/
-├── bloc/
-│ ├── feature_name_bloc.dart (BLoC for state management)
-│ └── index.dart (exports BLoCs)
-├── pages/
-│ ├── feature_name_page.dart (feature-specific pages)
-│ └── index.dart (exports pages)
-└── widgets/
-└── index.dart (exports widgets)
+│ ├── feature_name/
+│ │ // Data Layer
+│ │ ├── data/
+│ │ │ ├── data_sources/
+│ │ │ │ ├── remote_data_source.dart             // handles remote data operations
+│ │ │ │ ├── local_data_source.dart              // manages local data storage
+│ │ │ │ └── index.dart                          // exports data_sources
+│ │ │ ├── models/
+│ │ │ │ └── index.dart                          // exports models
+│ │ │ ├── repositories/
+│ │ │ │ ├── feature_name_repository_impl.dart   // feature-specific repository implementation
+│ │ │ │ └── index.dart                          // exports repositories
+│ │ └── index.dart                              // exports data layer
+│ │ // Domain Layer
+│ │ ├── domain/
+│ │ │ ├── entities/
+│ │ │ │ └── index.dart                          // exports entities
+│ │ │ ├── repositories/
+│ │ │ │ ├── feature_name_repository.dart        // abstract definition of the repository
+│ │ │ │ └── index.dart                          // exports repositories
+│ │ │ └── use_cases/
+│ │ │ │ └── index.dart                          // exports use cases
+│ │ └── index.dart                              // exports domain layer
+│ │ // Presentation Layer
+│ │ ├── presentation/
+│ │ │ ├── bloc/
+│ │ │ │ ├── feature_name_bloc.dart              // BLoC for state management
+│ │ │ │ └── index.dart                          // exports BLoCs
+│ │ │ ├── pages/
+│ │ │ │ ├── feature_name_page.dart              // feature-specific pages
+│ │ │ │ └── index.dart                          // exports pages
+│ │ │ └── widgets/
+│ │ │ │ └── index.dart                          // exports widgets
+│ │ └── index.dart                              // exports presentation layer
+│ └── index.dart                                // exports feature 
+```
 
 ### Key Components
 
