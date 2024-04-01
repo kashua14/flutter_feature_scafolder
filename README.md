@@ -1,71 +1,61 @@
-# flutter-feature-scaffolder README
+# Flutter Feature Scaffolder
 
-This is the README for your extension "flutter-feature-scaffolder". After writing up a brief description, we recommend including the following sections.
+The Flutter Feature Scaffolder is a Visual Studio Code extension designed to boost productivity by quickly scaffolding new features for Flutter applications using Clean Architecture. It automates the creation of a consistent directory and file structure for new features, including the setup for data, domain, and presentation layers according to Clean Architecture principles.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Scaffold New Flutter Feature**: Generates a new feature structure with all necessary layers and files, including `index.dart` files for easy exporting and importing.
+- **Clean Architecture Compliant**: Structures created by the extension follow the Clean Architecture guidelines, promoting a scalable, testable, and maintainable codebase.
+- **BLoC Pattern**: Supports the Business Logic Component (BLoC) pattern for state management within the presentation layer.
 
-For example if there is an image subfolder under your extension project workspace:
+## Getting Started
 
-\!\[feature X\]\(images/feature-x.png\)
+### Prerequisites
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Visual Studio Code
+- Flutter SDK
+- Dart SDK
 
-## Requirements
+### Installation
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open Visual Studio Code.
+2. Navigate to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X` (`Cmd+Shift+X` on macOS).
+3. Search for `Flutter Feature Scaffolder`.
+4. Click on **Install**.
+
+### Usage
+
+1. Open your Flutter project in Visual Studio Code.
+2. Press `Ctrl+Shift+P` (`Cmd+Shift+P` on macOS) to open the Command Palette.
+3. Type `Scaffold Flutter Feature` and press Enter.
+4. Enter the name of the feature you wish to scaffold when prompted.
+5. The extension will create a new feature structure under `lib/src/features/[your_feature_name]`.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not require any specific settings to be adjusted.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+For a list of known issues, please visit the [GitHub issues page](https://github.com/your-github-account/flutter_feature_scaffolder/issues).
+
+## Contributing
+
+We welcome contributions and suggestions! Please see the [CONTRIBUTING.md](https://github.com/your-github-account/flutter_feature_scaffolder/CONTRIBUTING.md) file for guidelines on how to contribute.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release of the Flutter Feature Scaffolder:
 
-### 1.0.1
+- Scaffold new Flutter feature with Clean Architecture.
+- Generate `index.dart` files for each directory.
 
-Fixed issue #.
+## Support
 
-### 1.1.0
+If you encounter any problems or have suggestions, please open an issue on the [GitHub issues page](https://github.com/your-github-account/flutter_feature_scaffolder/issues).
 
-Added features X, Y, and Z.
+## License
 
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/your-github-account/flutter_feature_scaffolder/LICENSE) file for details.
