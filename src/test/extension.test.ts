@@ -4,7 +4,7 @@ const vscode = require('vscode');
 suite("Extension Tests", function() {
     test("Sample test", async () => {
         const command = await vscode.commands.getCommands(true);
-        const commandExists = command.includes('flutter_feature_scaffolder.scaffoldFeature');
+        const commandExists = command.includes('flutter_feature_scafolder.scaffoldFeature');
         assert.equal(commandExists, true);
     });
 });

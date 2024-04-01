@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-    let disposable = vscode.commands.registerCommand('flutter_feature_scaffolder.scaffoldFeature', async () => {
+    let disposable = vscode.commands.registerCommand('flutter_feature_scafolder.scaffoldFeature', async () => {
         const featureName = await vscode.window.showInputBox({ prompt: "Enter Feature Name" });
         if (!featureName) {
             vscode.window.showErrorMessage("Feature name is required!");

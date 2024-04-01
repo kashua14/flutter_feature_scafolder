@@ -11,14 +11,14 @@ There are many ways you can contribute to this project, from writing tutorials o
 This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
 - **Use the search tool** to check if the bug has already been reported.
-- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/kashua14/flutter_feature_scaffolder/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/kashua14/flutter_feature_scafolder/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality.
 
 - **Use the search tool** to check if the enhancement has already been suggested.
-- If you're unable to find an open issue suggesting the same enhancement, [open a new one](https://github.com/kashua14/flutter_feature_scaffolder/issues/new). Provide a clear and concise description of the issue, including any background context or links to related issues, and the reason why you believe this enhancement would be beneficial to the extension.
+- If you're unable to find an open issue suggesting the same enhancement, [open a new one](https://github.com/kashua14/flutter_feature_scafolder/issues/new). Provide a clear and concise description of the issue, including any background context or links to related issues, and the reason why you believe this enhancement would be beneficial to the extension.
 
 ### Pull Requests
 

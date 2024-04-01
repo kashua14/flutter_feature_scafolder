@@ -85,11 +85,11 @@ This extension does not require any specific settings to be adjusted.
 
 ## Known Issues
 
-For a list of known issues, please visit the [GitHub issues page](https://github.com/kashua14/flutter_feature_scaffolder/issues).
+For a list of known issues, please visit the [GitHub issues page](https://github.com/kashua14/flutter_feature_scafolder/issues).
 
 ## Contributing
 
-We welcome contributions and suggestions! Please see the [CONTRIBUTING.md](https://github.com/kashua14/flutter_feature_scaffolder/CONTRIBUTING.md) file for guidelines on how to contribute.
+We welcome contributions and suggestions! Please see the [CONTRIBUTING.md](https://github.com/kashua14/flutter_feature_scafolder/CONTRIBUTING.md) file for guidelines on how to contribute.
 
 ## Release Notes
 
@@ -102,8 +102,8 @@ Initial release of the Flutter Feature Scaffolder:
 
 ## Support
 
-If you encounter any problems or have suggestions, please open an issue on the [GitHub issues page](https://github.com/kashua14/flutter_feature_scaffolder/issues).
+If you encounter any problems or have suggestions, please open an issue on the [GitHub issues page](https://github.com/kashua14/flutter_feature_scafolder/issues).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/kashua14/flutter_feature_scaffolder/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/kashua14/flutter_feature_scafolder/LICENSE) file for details.

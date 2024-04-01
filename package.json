@@ -35,7 +35,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "flutter_feature_scaffolder.scaffoldFeature",
+        "command": "flutter_feature_scafolder.scaffoldFeature",
         "title": "Scaffold Flutter Feature"
       }
     ]
