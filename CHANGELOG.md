@@ -42,3 +42,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Key bindings to the extension
 - Linked Key bindings with the menu context.
+
+## [1.0.3] - 2024-04-01
+
+### Added
+
+- Added Keywords
+
+## [1.0.5] - 2024-04-01
+
+### Fixed
+
+- Bug fixes in key bindings

@@ -101,12 +101,11 @@ We welcome contributions and suggestions! Please see the [CONTRIBUTING.md](https
 
 ## Release Notes
 
-## [1.0.2] - 2024-04-01
+## [1.0.5] - 2024-04-01
 
-### Added
+### Fixed
 
-- Key bindings to the extension
-- Linked Key bindings with the menu context.
+- Bug fixes in key bindings
 
 ## Support
 
