@@ -31,14 +31,14 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onCommand:flutter-feature-scaffolder.helloWorld"
+    "onCommand:flutter_feature_scaffolder.scaffoldFeature"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "flutter-feature-scaffolder.helloWorld",
-        "title": "Hello World"
+        "command": "flutter_feature_scaffolder.scaffoldFeature",
+        "title": "Scaffold Flutter Feature"
       }
     ]
   },
