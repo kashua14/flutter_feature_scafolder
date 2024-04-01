@@ -1,8 +1,8 @@
 {
-  "name": "flutter_feature_scafolder",
+  "name": "flutter-feature-scafolder",
   "displayName": "Flutter Feature Scaffolder",
   "description": "A VS Code extension to quickly scaffold feature directories and files for Flutter applications following the Clean Architecture principles. Automates the creation of data, domain, and presentation layers, including BLoC for state management, models, and services, ensuring a consistent and efficient workflow for Flutter developers.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "engines": {
     "vscode": "^1.87.0"
   },
@@ -58,20 +58,20 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onCommand:flutter_feature_scaffolder.scaffoldFeature"
+    "onCommand:flutter-feature-scafolder.scaffoldFeature"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "flutter_feature_scafolder.scaffoldFeature",
+        "command": "flutter-feature-scafolder.scaffoldFeature",
         "title": "Scaffold Flutter Feature",
         "category": "Flutter Feature Scaffolder"
       }
     ],
     "keybindings": [
       {
-        "command": "flutter_feature_scafolder.scaffoldFeature",
+        "command": "flutter-feature-scafolder.scaffoldFeature",
         "key": "ctrl+shift+j",
         "mac": "cmd+shift+j",
         "when": "editorTextFocus"
@@ -81,7 +81,7 @@
       "editor/context": [
         {
           "when": "editorHasSelection",
-          "command": "flutter_feature_scafolder.scaffoldFeature",
+          "command": "flutter-feature-scafolder.scaffoldFeature",
           "group": "navigation"
         }
       ]
