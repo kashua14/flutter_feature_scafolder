@@ -31,7 +31,9 @@
     "Programming Languages",
     "Snippets"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:flutter_feature_scaffolder.scaffoldFeature"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -39,7 +41,24 @@
         "command": "flutter_feature_scafolder.scaffoldFeature",
         "title": "Scaffold Flutter Feature"
       }
-    ]
+    ],
+    "keybindings": [
+      {
+        "command": "flutter_feature_scaffolder.scaffoldFeature",
+        "key": "ctl+shift+p",
+        "mac": "cmd+shift+p",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection",
+          "command": "flutter_feature_scaffolder.scaffoldFeature",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
